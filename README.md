@@ -33,5 +33,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Made with 💖 by Dolan
 
-[travis-image]: https://travis-ci.org/dolan-bio/Website.svg?branch=master
-[travis-url]: https://travis-ci.org/dolan-bio/Website
+[travis-image]: https://travis-ci.org/dolanmiu/Janchi-Website.svg?branch=master
+[travis-url]: https://travis-ci.org/dolanmiu/Janchi-Website
