@@ -164,6 +164,7 @@
         "array-type": [
             true,
             "array-simple"
-        ]
+        ],
+        "no-any": true
     }
 }
