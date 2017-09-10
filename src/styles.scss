@@ -1,10 +1,20 @@
 // You can add global styles to this file, and also import other style files
 @import url('https://fonts.googleapis.com/css?family=Prata|Quicksand:300');
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Quicksand', Arial, sans-serif;
     font-size: 1.5em;
     text-transform: uppercase;
+}
+
+p {
+    font-family: 'Prata', 'Times New Roman', Times, serif;
+    font-size: .9em;
 }
 
 a {
