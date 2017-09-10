@@ -2,6 +2,7 @@ import { async, TestBed } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
 import { FooterModule } from './footer/footer.module';
+import { HeroModule } from './hero/hero.module';
 import { MenuModule } from './menu/menu.module';
 
 describe('AppComponent', () => {
@@ -13,6 +14,7 @@ describe('AppComponent', () => {
             imports: [
                 FooterModule,
                 MenuModule,
+                HeroModule,
             ],
         }).compileComponents();
     }));
