@@ -1,6 +1,7 @@
 import { AgmCoreModule } from '@agm/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { SharedModule } from '../shared/shared.module';
 import { FooterComponent } from './footer.component';
 
 describe('FooterComponent', () => {
@@ -12,6 +13,7 @@ describe('FooterComponent', () => {
             declarations: [FooterComponent],
             imports: [
                 AgmCoreModule.forRoot(),
+                SharedModule,
             ],
         })
             .compileComponents();
