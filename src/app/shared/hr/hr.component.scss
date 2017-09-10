@@ -1,0 +1,11 @@
+$border-color: #02294a;
+
+:host {
+    display: block;
+    margin-right: calc(100% - 100px);
+}
+
+hr {
+    background-color: $border-color;
+    border-width: 2px;
+}
