@@ -2,13 +2,18 @@ import { async, TestBed } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
 import { FooterModule } from './footer/footer.module';
+import { MenuModule } from './menu/menu.module';
+
 describe('AppComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [
                 AppComponent,
             ],
-            imports: [FooterModule],
+            imports: [
+                FooterModule,
+                MenuModule,
+            ],
         }).compileComponents();
     }));
     it('should create the app', async(() => {

@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FooterModule } from './footer/footer.module';
+import { MenuModule } from './menu/menu.module';
 
 @NgModule({
     declarations: [
@@ -11,6 +12,7 @@ import { FooterModule } from './footer/footer.module';
     imports: [
         BrowserModule,
         FooterModule,
+        MenuModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
