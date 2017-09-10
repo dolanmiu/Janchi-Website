@@ -4,8 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FooterModule } from './footer/footer.module';
 import { HeroModule } from './hero/hero.module';
-import { MenuModule } from './menu/menu.module';
 import { InstagramModule } from './instagram/instagram.module';
+import { MenuModule } from './menu/menu.module';
 
 @NgModule({
     declarations: [
