@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FooterModule } from './footer/footer.module';
 import { HeroModule } from './hero/hero.module';
 import { MenuModule } from './menu/menu.module';
+import { InstagramModule } from './instagram/instagram.module';
 
 @NgModule({
     declarations: [
@@ -15,6 +16,7 @@ import { MenuModule } from './menu/menu.module';
         FooterModule,
         MenuModule,
         HeroModule,
+        InstagramModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
