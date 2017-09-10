@@ -1,4 +1,12 @@
 // You can add global styles to this file, and also import other style files
+@import url('https://fonts.googleapis.com/css?family=Prata|Quicksand:300');
+
+h1 {
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
 a {
     &:link {
         text-decoration: none;
