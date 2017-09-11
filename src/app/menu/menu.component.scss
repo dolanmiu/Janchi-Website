@@ -1,12 +1,27 @@
 $menu-color: #fff;
 
 :host {
-    background-image: url('/assets/logo.png');
+    background-attachment: fixed;
+    background-image: url('/assets/hero-background.jpg');
+    background-position: center;
+    background-size: cover;
     display: block;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .container {
     background-color: $menu-color;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.hr {
+    display: block;
+}
+
+.btn-lg {
+    font-size: 1.6rem;
+    line-height: 2;
+    padding: .7rem 2.5rem;
 }

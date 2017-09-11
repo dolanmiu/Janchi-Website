@@ -1,3 +1,5 @@
+$logo-shadow-color: rgba(0, 0, 0, .19);
+
 :host {
     display: block;
     height: 80vh;
@@ -10,4 +12,30 @@
     flex-direction: column;
     height: 100%;
     justify-content: center;
+    z-index: 1000;
+
+    .logo-box {
+        align-items: center;
+        box-shadow: 0 0 20px $logo-shadow-color;
+        display: flex;
+        height: 500px;
+        padding: 10px;
+    }
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-image: url('/assets/hero-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
