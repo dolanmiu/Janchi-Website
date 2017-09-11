@@ -1,0 +1,12 @@
+$menu-color: #fff;
+
+:host {
+    background-image: url('/assets/logo.png');
+    display: block;
+}
+
+.container {
+    background-color: $menu-color;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}

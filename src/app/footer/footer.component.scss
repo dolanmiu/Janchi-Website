@@ -3,7 +3,7 @@ $card-shadow-color: rgba(0, 0, 0, .19);
 
 :host {
     display: block;
-    height: 700px;
+    height: 900px;
     position: relative;
 }
 
@@ -15,12 +15,30 @@ agm-map {
     background-color: $card-bg-color;
     bottom: 0;
     box-shadow: 3px 0 20px $card-shadow-color;
-    height: calc(100% - 60px);
+    height: calc(100% - 260px);
     left: 10%;
     position: absolute;
-    width: 450px;
+    width: 540px;
 
     .social-media {
+        margin-bottom: 50px;
+        margin-top: 50px;
         text-align: center;
+    }
+
+    .heading {
+        margin: 60px;
+    }
+
+    .text {
+        padding: 60px 60px 0;
+    }
+
+    h2 {
+        font-size: .9em;
+    }
+
+    .author {
+        font-size: .8em;
     }
 }
