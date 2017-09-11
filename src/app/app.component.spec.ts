@@ -1,5 +1,6 @@
 import { async, TestBed } from '@angular/core/testing';
 
+import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
 import { FooterModule } from './footer/footer.module';
 import { HeroModule } from './hero/hero.module';
@@ -17,6 +18,7 @@ describe('AppComponent', () => {
                 MenuModule,
                 HeroModule,
                 InstagramModule,
+                AboutModule,
             ],
         }).compileComponents();
     }));

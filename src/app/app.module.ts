@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
 import { FooterModule } from './footer/footer.module';
 import { HeroModule } from './hero/hero.module';
@@ -17,6 +18,7 @@ import { MenuModule } from './menu/menu.module';
         MenuModule,
         HeroModule,
         InstagramModule,
+        AboutModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
