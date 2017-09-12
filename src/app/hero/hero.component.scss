@@ -1,4 +1,5 @@
-$logo-shadow-color: rgba(0, 0, 0, .19);
+$logo-shadow-color: rgba(0, 0, 0, .4);
+$logo-bg-color: #fff;
 
 :host {
     display: block;
@@ -16,6 +17,7 @@ $logo-shadow-color: rgba(0, 0, 0, .19);
 
     .logo-box {
         align-items: center;
+        background-color: $logo-bg-color;
         box-shadow: 0 0 20px $logo-shadow-color;
         display: flex;
         height: 500px;
