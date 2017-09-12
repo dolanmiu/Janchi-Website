@@ -55,6 +55,7 @@ a {
     &:hover {
         background-color: transparent;
         border: 2px solid transparent;
+        color: $ghost-button-color;
         cursor: pointer;
     }
 }
