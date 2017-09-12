@@ -10,7 +10,7 @@ import { Observable } from 'rxjs/Rx';
     styleUrls: ['./instagram.component.scss'],
 })
 export class InstagramComponent implements OnInit {
-    private photos$: Observable<InstagramPhotoData[]>;
+    public photos$: Observable<InstagramPhotoData[]>;
 
     constructor(http: Http) {
         this.photos$ = http.get(`https://wt-9017166451e5dc00461b648d19f5e8da-0.run.webtask.io/janchi`)
