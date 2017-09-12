@@ -41,4 +41,19 @@ agm-map {
     .author {
         font-size: .8em;
     }
+
+}
+
+@media (max-width: 992px) {
+    .contact-card {
+        box-shadow: none;
+        left: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    :host {
+        height: 500px;
+        position: relative;
+    }
 }
