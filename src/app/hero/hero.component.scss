@@ -41,3 +41,12 @@ $logo-bg-color: #fff;
         background-attachment: scroll;
     }
 }
+
+.timeout {
+    bottom: 0;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    width: 100px;
+    z-index: 10;
+}
