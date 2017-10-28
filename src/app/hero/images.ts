@@ -27,53 +27,53 @@ export const IMAGES = [{
 }, {
     name: 'Veg Sushi',
 }, {
-    name: '_DSC6078',
+    name: 'DSC6078',
 }, {
-    name: '_DSC6090',
+    name: 'DSC6090',
 }, {
-    name: '_DSC6092',
+    name: 'DSC6092',
 }, {
-    name: '_DSC6121',
+    name: 'DSC6121',
 }, {
-    name: '_DSC6125',
+    name: 'DSC6125',
 }, {
-    name: '_DSC6139',
+    name: 'DSC6139',
 }, {
-    name: '_DSC6144',
+    name: 'DSC6144',
 }, {
-    name: '_DSC6161',
+    name: 'DSC6161',
 }, {
-    name: '_DSC6175',
+    name: 'DSC6175',
 }, {
-    name: '_DSC6185_stitch-cropped',
+    name: 'DSC6185_stitch-cropped',
 }, {
-    name: '_DSC6223',
+    name: 'DSC6223',
 }, {
-    name: '_DSC6233',
+    name: 'DSC6233',
 }, {
-    name: '_DSC6280',
+    name: 'DSC6280',
 }, {
-    name: '_DSC6288',
+    name: 'DSC6288',
 }, {
-    name: '_DSC6306',
+    name: 'DSC6306',
 }, {
-    name: '_DSC6309',
+    name: 'DSC6309',
 }, {
-    name: '_DSC6313',
+    name: 'DSC6313',
 }, {
-    name: '_DSC6325',
+    name: 'DSC6325',
 }, {
-    name: '_DSC6328',
+    name: 'DSC6328',
 }, {
-    name: '_DSC6341',
+    name: 'DSC6341',
 }, {
-    name: '_DSC6342',
+    name: 'DSC6342',
 }, {
-    name: '_DSC6367',
+    name: 'DSC6367',
 }, {
-    name: '_DSC6379',
+    name: 'DSC6379',
 }, {
-    name: '_DSC6398',
+    name: 'DSC6398',
 }, {
-    name: '_DSC6405',
+    name: 'DSC6405',
 }];
