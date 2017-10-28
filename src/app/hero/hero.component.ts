@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { IMAGES } from './images';
+
 interface HeroImage {
     name: string;
     active?: boolean;
@@ -14,42 +16,19 @@ export class HeroComponent implements OnInit {
     public images: HeroImage[];
 
     constructor() {
-        this.images = [{
-            name: 'Beef noodles',
-        }, {
-            name: 'Beef Sushi',
-        }, {
-            name: 'Chicken Sushi',
-        }, {
-            name: 'Chicken02',
-        }, {
-            name: 'Fried chicken01',
-        }, {
-            name: 'Range',
-        }, {
-            name: 'Rice',
-        }, {
-            name: 'Rice02',
-        }, {
-            name: 'Salmon Sushi',
-        }, {
-            name: 'Seafood pancake01',
-        }, {
-            name: 'Spicy pasta',
-        }, {
-            name: 'Spicy soup with rice',
-        }, {
-            name: 'Stone rice_01',
-        }, {
-            name: 'Veg Sushi',
-        }];
-
-        const index = Math.floor(Math.random() * this.images.length);
-
-        this.images[index].active = true;
+        this.images = this.selectRandomImages(10);
+        this.images[0].active = true;
+        console.log(this.images);
     }
 
     public ngOnInit(): void {
+    }
+
+    private selectRandomImages(amount: number): HeroImage[] {
+        const shuffled = IMAGES.sort(() => Math.random() - .5);
+        const selected = shuffled.slice(0, amount);
+
+        return selected;
     }
 
 }
