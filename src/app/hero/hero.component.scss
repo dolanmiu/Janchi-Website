@@ -1,4 +1,4 @@
-$logo-shadow-color: rgba(0, 0, 0, .4);
+$logo-shadow-color: rgba(0, 0, 0, .1);
 $logo-bg-color: #fff;
 
 %flex {
@@ -28,7 +28,6 @@ $logo-bg-color: #fff;
         background-color: $logo-bg-color;
         box-shadow: 0 0 20px $logo-shadow-color;
         display: flex;
-        height: 500px;
         padding: 10px;
     }
 }
