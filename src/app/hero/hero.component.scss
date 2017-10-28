@@ -45,7 +45,24 @@ $logo-bg-color: #fff;
     }
 }
 
+.carousel-fade {
+    .carousel-item {
+        display: block;
+        opacity: 0;
+        position: absolute;
+        transition: opacity .75s ease-in-out;
 
+        &.active {
+            opacity: 1;
+		}
+	}
+}
+
+.carousel,
+.carousel-inner {
+    height: 100%;
+    width: 100%;
+}
 
 @media only screen and (max-device-width: 1024px) {
     .parallax {
