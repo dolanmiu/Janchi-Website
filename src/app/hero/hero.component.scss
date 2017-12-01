@@ -74,6 +74,26 @@ $logo-bg-color: #fff;
     height: 100px;
     position: absolute;
     right: 10px;
+    transition: opacity .2s;
     width: 100px;
-    z-index: 10;
+    z-index: 1000;
+
+    &:hover {
+        opacity: .6;
+    }
+
+}
+
+.deliveroo {
+    bottom: 0;
+    height: 100px;
+    position: absolute;
+    right: 150px;
+    transition: opacity .2s;
+    width: 212px;
+    z-index: 1000;
+
+    &:hover {
+        opacity: .6;
+    }
 }
