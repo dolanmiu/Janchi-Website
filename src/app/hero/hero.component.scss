@@ -69,31 +69,31 @@ $logo-bg-color: #fff;
     }
 }
 
-.timeout {
+%logo {
     bottom: 0;
     height: 100px;
     position: absolute;
-    right: 10px;
     transition: opacity .2s;
-    width: 100px;
     z-index: 1000;
 
     &:hover {
         opacity: .6;
     }
+}
 
+.timeout {
+    @extend %logo;
+    right: 10px;
+    width: 100px;
 }
 
 .deliveroo {
-    bottom: 0;
-    height: 100px;
-    position: absolute;
+    @extend %logo;
     right: 150px;
-    transition: opacity .2s;
     width: 212px;
-    z-index: 1000;
+}
 
-    &:hover {
-        opacity: .6;
-    }
+.just-eat {
+    @extend %logo;
+    right: 400px;
 }
