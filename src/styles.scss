@@ -1,6 +1,6 @@
 // You can add global styles to this file, and also import other style files
 @import url('https://fonts.googleapis.com/css?family=Prata|Quicksand:300');
-
+// sass-lint:disable no-important
 $ghost-button-color: #000;
 
 h1,
@@ -9,9 +9,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Quicksand', Arial, sans-serif;
-    font-size: 1.5em;
-    text-transform: uppercase;
+    font-family: 'Quicksand', Arial, sans-serif !important;
+    font-size: 1.5em !important;
+    text-transform: uppercase !important;
 }
 
 h1 {
@@ -19,43 +19,43 @@ h1 {
 }
 
 p {
-    font-family: 'Prata', 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    font-family: 'Prata', 'Times New Roman', Times, serif !important;
+    font-size: 1.2em !important;
 }
 
 a {
     &:link {
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
     &:visited {
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
     &:hover {
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
     &:active {
-        text-decoration: none;
+        text-decoration: none !important;
     }
 }
 
 .btn {
-    background-color: transparent;
-    border: 2px solid $ghost-button-color;
-    border-radius: 0;
-    color: $ghost-button-color;
-    font-family: 'Quicksand', Arial, sans-serif;
-    outline: none;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+    background-color: transparent !important;
+    border: 2px solid $ghost-button-color !important;
+    border-radius: 0 !important;
+    color: $ghost-button-color !important;
+    font-family: 'Quicksand', Arial, sans-serif !important;
+    outline: none !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
 
     &:hover {
-        background-color: transparent;
-        border: 2px solid transparent;
-        color: $ghost-button-color;
-        cursor: pointer;
+        background-color: transparent !important;
+        border: 2px solid transparent !important;
+        color: $ghost-button-color !important;
+        cursor: pointer !important;
     }
 }
