@@ -1,5 +1,6 @@
 $card-bg-color: #fff;
 $card-shadow-color: rgba(0, 0, 0, .19);
+$address-hover-color: rgb(44, 44, 44);
 
 :host {
     display: block;
@@ -44,6 +45,18 @@ agm-map {
 
 }
 
+.address {
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-underline-position: under;
+
+    &:hover {
+        color: $address-hover-color;
+        text-decoration-line: none;
+    };
+}
+
 @media (max-width: 992px) {
     .contact-card {
         box-shadow: none;
@@ -55,5 +68,11 @@ agm-map {
     :host {
         height: 500px;
         position: relative;
+    }
+}
+
+@media (max-width: 640px) {
+    agm-map {
+        display: none;
     }
 }

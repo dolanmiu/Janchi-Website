@@ -59,3 +59,14 @@ a {
         cursor: pointer !important;
     }
 }
+
+@media (max-width: 768px) {
+    p {
+        font-size: .8em !important;
+    }
+
+    .btn {
+        font-size: .8em !important;
+        padding: .6rem 2rem !important;
+    }
+}

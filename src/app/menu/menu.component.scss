@@ -36,3 +36,15 @@ p {
 .menu {
     padding: 0 100px;
 }
+
+@media (max-width: 500px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .menu-too-big {
+        display: none;
+    }
+}
