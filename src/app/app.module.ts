@@ -7,10 +7,12 @@ import { FooterModule } from './footer/footer.module';
 import { HeroModule } from './hero/hero.module';
 import { InstagramModule } from './instagram/instagram.module';
 import { MenuModule } from './menu/menu.module';
+import { DeliveryComponent } from './delivery/delivery.component';
 
 @NgModule({
     declarations: [
         AppComponent,
+        DeliveryComponent,
     ],
     imports: [
         BrowserModule,

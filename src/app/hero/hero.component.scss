@@ -47,6 +47,7 @@ $logo-bg-color: #fff;
 .carousel-fade {
     .carousel-item {
         display: block;
+        height: 100%;
         opacity: 0;
         position: absolute;
         transition: opacity .75s ease-in-out;
@@ -87,13 +88,18 @@ $logo-bg-color: #fff;
     width: 100px;
 }
 
-.deliveroo {
-    @extend %logo;
-    right: 150px;
-    width: 212px;
-}
+@media (max-width: 640px) {
+    :host {
+        height: 30vh;
+    }
 
-.just-eat {
-    @extend %logo;
-    right: 400px;
+    .timeout {
+        display: none;
+    }
+
+    .logo-box {
+        img {
+            width: 150px;
+        }
+    }
 }

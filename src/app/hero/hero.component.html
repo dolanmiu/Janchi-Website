@@ -8,7 +8,8 @@
     <div class="carousel carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item" [ngClass]="{'active': image.active}" *ngFor="let image of images">
-                <img class="d-block w-100" src="/assets/hero/{{image.name}}.jpg">
+                <!-- <img class="d-block w-100" src="/assets/hero/{{image.name}}.jpg"> -->
+                <app-hero-image url="/assets/hero/{{image.name}}.jpg"></app-hero-image>
             </div>
         </div>
     </div>
@@ -17,17 +18,5 @@
 <div class="timeout">
     <a target="_blank" href="https://www.timeout.com/london/blog/five-things-you-should-eat-at-londons-biggest-asian-food-hall-bang-bang-oriental-081517">
         <img class="img-fluid" src="assets/timeout-logo.jpeg">
-    </a>
-</div>
-
-<div class="deliveroo">
-    <a target="_blank" href="https://deliveroo.co.uk/menu/london/colindale/janchi-korean-kitchen-at-bang-bang-oriental-food-hall">
-        <img class="img-fluid" src="assets/deliveroo-logo.png">
-    </a>
-</div>
-
-<div class="just-eat">
-    <a target="_blank" href="https://www.just-eat.co.uk/restaurants-janchikoreankitchenbangbangorientalfoodkingsbury">
-        <img class="img-fluid" src="assets/just-eat-logo.png">
     </a>
 </div>
