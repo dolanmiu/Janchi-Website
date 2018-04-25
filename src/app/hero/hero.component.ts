@@ -18,7 +18,6 @@ export class HeroComponent implements OnInit {
     constructor() {
         this.images = this.selectRandomImages(10);
         this.images[0].active = true;
-        console.log(this.images);
     }
 
     public ngOnInit(): void {
