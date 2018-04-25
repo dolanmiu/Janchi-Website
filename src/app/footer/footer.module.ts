@@ -13,11 +13,7 @@ import { FooterComponent } from './footer.component';
         }),
         SharedModule,
     ],
-    declarations: [
-        FooterComponent,
-    ],
-    exports: [
-        FooterComponent,
-    ],
+    declarations: [FooterComponent],
+    exports: [FooterComponent],
 })
-export class FooterModule { }
+export class FooterModule {}

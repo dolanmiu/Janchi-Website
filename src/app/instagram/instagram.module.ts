@@ -6,16 +6,8 @@ import { InstagramComponent } from './instagram.component';
 import { PhotoComponent } from './photo/photo.component';
 
 @NgModule({
-    imports: [
-        CommonModule,
-        HttpModule,
-    ],
-    declarations: [
-        InstagramComponent,
-        PhotoComponent,
-    ],
-    exports: [
-        InstagramComponent,
-    ],
+    imports: [CommonModule, HttpModule],
+    declarations: [InstagramComponent, PhotoComponent],
+    exports: [InstagramComponent],
 })
-export class InstagramModule { }
+export class InstagramModule {}

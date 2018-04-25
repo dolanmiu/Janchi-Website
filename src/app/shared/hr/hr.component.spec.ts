@@ -9,8 +9,7 @@ describe('HrComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [HrComponent],
-        })
-            .compileComponents();
+        }).compileComponents();
     }));
 
     beforeEach(() => {

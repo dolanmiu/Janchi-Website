@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 @Component({
     selector: 'app-photo',
@@ -6,13 +6,8 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
     styleUrls: ['./photo.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PhotoComponent implements OnInit {
-
+export class PhotoComponent {
     @Input() public photo: InstagramPhotoData;
 
-    constructor() { }
-
-    public ngOnInit(): void {
-    }
-
+    constructor() {}
 }

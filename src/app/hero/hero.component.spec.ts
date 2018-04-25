@@ -9,8 +9,7 @@ describe('HeroComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [HeroComponent],
-        })
-            .compileComponents();
+        }).compileComponents();
     }));
 
     beforeEach(() => {

@@ -11,12 +11,8 @@ describe('FooterComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [FooterComponent],
-            imports: [
-                AgmCoreModule.forRoot(),
-                SharedModule,
-            ],
-        })
-            .compileComponents();
+            imports: [AgmCoreModule.forRoot(), SharedModule],
+        }).compileComponents();
     }));
 
     beforeEach(() => {

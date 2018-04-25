@@ -4,12 +4,8 @@ import { NgModule } from '@angular/core';
 import { HrComponent } from './hr/hr.component';
 
 @NgModule({
-    imports: [
-        CommonModule,
-    ],
+    imports: [CommonModule],
     declarations: [HrComponent],
-    exports: [
-        HrComponent,
-    ],
+    exports: [HrComponent],
 })
-export class SharedModule { }
+export class SharedModule {}

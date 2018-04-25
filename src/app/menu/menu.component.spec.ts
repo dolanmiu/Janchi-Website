@@ -10,11 +10,8 @@ describe('MenuComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [MenuComponent],
-            imports: [
-                SharedModule,
-            ],
-        })
-            .compileComponents();
+            imports: [SharedModule],
+        }).compileComponents();
     }));
 
     beforeEach(() => {

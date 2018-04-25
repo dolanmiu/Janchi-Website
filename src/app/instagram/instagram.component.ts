@@ -13,13 +13,11 @@ export class InstagramComponent implements OnInit {
     public photos$: Observable<InstagramPhotoData[]>;
 
     constructor(http: Http) {
-        this.photos$ = http.get(`https://wt-9017166451e5dc00461b648d19f5e8da-0.run.webtask.io/janchi`)
+        this.photos$ = http
+            .get(`https://wt-9017166451e5dc00461b648d19f5e8da-0.run.webtask.io/janchi`)
             .map((res) => res.json() as InstagramPhotoResponse)
             .map((res) => res.data);
     }
 
-    public ngOnInit(): void {
-
-    }
-
+    public ngOnInit(): void {}
 }

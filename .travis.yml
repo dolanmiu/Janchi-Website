@@ -19,6 +19,7 @@ before_script:
 script:
     - npm run lint
     - npm run sass-lint
+    - npm run style
     - npm test
     #- ng build --prod --base-href "/Janchi-Website/"
     - ng build --prod

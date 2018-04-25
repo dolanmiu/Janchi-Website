@@ -10,16 +10,8 @@ import { MenuModule } from './menu/menu.module';
 describe('AppComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [
-                AppComponent,
-            ],
-            imports: [
-                FooterModule,
-                MenuModule,
-                HeroModule,
-                InstagramModule,
-                AboutModule,
-            ],
+            declarations: [AppComponent],
+            imports: [FooterModule, MenuModule, HeroModule, InstagramModule, AboutModule],
         }).compileComponents();
     }));
 

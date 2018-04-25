@@ -10,15 +10,9 @@ describe('InstagramComponent', () => {
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [
-                InstagramComponent,
-                PhotoComponent,
-            ],
-            imports: [
-                HttpModule,
-            ],
-        })
-            .compileComponents();
+            declarations: [InstagramComponent, PhotoComponent],
+            imports: [HttpModule],
+        }).compileComponents();
     }));
 
     beforeEach(() => {
