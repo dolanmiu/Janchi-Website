@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent implements OnInit {
-    public lat = 51.593136;
-    public lng = -0.2614707;
+    public lat = 51.593471;
+    public lng = -0.2605973;
     public scrollWheel = false;
     public zoomLevel = 16;
     public disableDoubleClickZoom = true;
@@ -20,8 +20,7 @@ export class FooterComponent implements OnInit {
     public ngOnInit(): void {}
 
     public navToGoogleMaps(): void {
-        // tslint:disable-next-line:max-line-length
-        const url = 'maps.google.com/maps/place/Bang+Bang+Oriental+Foodhall/@51.593471,-0.2616917,17z/data=!3m1!4b1!4m5!3m4!1s0x48761149e2555555:0x37bd9c588894d04f!8m2!3d51.593471!4d-0.259503';
+        const url = `maps.google.com/maps?daddr=${this.lat},${this.lng}&amp;ll=`;
 
         if (
             navigator.platform.indexOf('iPhone') !== -1 ||
