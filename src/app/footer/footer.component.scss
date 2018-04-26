@@ -18,6 +18,7 @@ agm-map {
     box-shadow: 3px 0 20px $card-shadow-color;
     height: calc(100% - 260px);
     left: 10%;
+    overflow: hidden;
     position: absolute;
     width: 540px;
 
