@@ -20,14 +20,17 @@ export class FooterComponent implements OnInit {
     public ngOnInit(): void {}
 
     public navToGoogleMaps(): void {
+        // tslint:disable-next-line:max-line-length
+        const url = 'maps.google.com/maps/place/Bang+Bang+Oriental+Foodhall/@51.593471,-0.2616917,17z/data=!3m1!4b1!4m5!3m4!1s0x48761149e2555555:0x37bd9c588894d04f!8m2!3d51.593471!4d-0.259503';
+
         if (
             navigator.platform.indexOf('iPhone') !== -1 ||
             navigator.platform.indexOf('iPod') !== -1 ||
             navigator.platform.indexOf('iPad') !== -1
         ) {
-            window.open('maps://maps.google.com/maps?daddr=lat,long&amp;ll=');
+            window.open(`maps://${url}`);
         } else {
-            window.open('http://maps.google.com/maps?daddr=lat,long&amp;ll=');
+            window.open(`http://${url}`);
         }
     }
 }
