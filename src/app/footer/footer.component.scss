@@ -62,6 +62,7 @@ agm-map {
     .contact-card {
         box-shadow: none;
         left: 0;
+        overflow: initial; // overflow: hidden breaks, so initial needs to be set
         position: relative;
         width: 100%;
     }
