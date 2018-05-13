@@ -14,7 +14,7 @@ export class InstagramComponent implements OnInit {
 
     constructor(http: Http) {
         this.photos$ = http
-            .get(`https://wt-9017166451e5dc00461b648d19f5e8da-0.run.webtask.io/janchi`)
+            .get(`https://wt-9017166451e5dc00461b648d19f5e8da-0.sandbox.auth0-extend.com/janchi`)
             .map((res) => res.json() as InstagramPhotoResponse)
             .map((res) => res.data);
     }
