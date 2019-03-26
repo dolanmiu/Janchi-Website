@@ -28,7 +28,10 @@ $logo-bg-color: #fff;
         background-color: $logo-bg-color;
         box-shadow: 0 0 20px $logo-shadow-color;
         display: flex;
+        height: 300px;
+        justify-content: center;
         padding: 10px;
+        width: 300px;
     }
 }
 

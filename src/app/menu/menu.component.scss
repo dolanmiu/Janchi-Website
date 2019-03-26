@@ -23,6 +23,13 @@ $menu-color: #fff;
     font-size: 1.6rem;
     line-height: 2;
     padding: .7rem 2.5rem;
+    width: 284px;
+}
+
+.buttons {
+    :not(:last-child) {
+        margin-right: 20px;
+    }
 }
 
 em {
